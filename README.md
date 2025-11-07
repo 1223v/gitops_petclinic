@@ -169,3 +169,13 @@ For additional details, please refer to the blog post [Hello DCO, Goodbye CLA: S
 ## License
 
 The Spring PetClinic sample application is released under version 2.0 of the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
+
+## GitOps CI/CD Pipeline
+
+이 프로젝트는 다음 기술 스택을 사용합니다:
+- **AWS EKS**: Kubernetes 클러스터
+- **GitHub Actions**: CI (빌드 및 이미지 푸시)
+- **ArgoCD**: CD (자동 배포)
+- **ECR**: Docker 이미지 저장소
+
+배포 일시: $(date '+%Y-%m-%d %H:%M:%S')
